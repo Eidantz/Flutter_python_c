@@ -1,0 +1,9 @@
+ninja: Entering directory `/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64'
+[1/2] Building C object CMakeFiles/weather.dir/home/eidan/flutter/final4/src/weather.c.o
+FAILED: CMakeFiles/weather.dir/home/eidan/flutter/final4/src/weather.c.o 
+/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dweather_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/weather.dir/home/eidan/flutter/final4/src/weather.c.o -MF CMakeFiles/weather.dir/home/eidan/flutter/final4/src/weather.c.o.d -o CMakeFiles/weather.dir/home/eidan/flutter/final4/src/weather.c.o -c /home/eidan/flutter/final4/src/weather.c
+/home/eidan/flutter/final4/src/weather.c:43:10: fatal error: 'Python.h' file not found
+#include <Python.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

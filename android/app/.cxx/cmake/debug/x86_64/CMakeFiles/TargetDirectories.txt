@@ -1,0 +1,3 @@
+/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/weather.dir

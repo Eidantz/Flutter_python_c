@@ -1,0 +1,44 @@
+{
+  "stringTable": {
+    "0": "/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dweather_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/eidan/flutter/final4/android/app/CMakeLists.txt",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/platforms.cmake",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja  -C \"/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "weather-Debug-x86_64": {
+      "buildCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64\" weather",
+      "buildType": "debug",
+      "toolchain": "2940300014",
+      "abi": "x86_64",
+      "artifactName": "weather",
+      "files": [
+        {
+          "src": "/home/eidan/flutter/final4/src/weather.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/eidan/flutter/final4/build/app/intermediates/cmake/debug/obj/x86_64/libweather.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2940300014": {
+      "cCompilerExecutable": "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,62 @@
+{
+  "stringTable": {
+    "0": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_add2_EXPORTS -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I../../../../ -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_add_EXPORTS -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I../../../../ -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/eidan/Downloads/final5/android/app/CMakeLists.txt",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/platforms.cmake",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja  -C \"/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_add2-Debug-arm64-v8a": {
+      "buildCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a\" native_add2",
+      "buildType": "debug",
+      "toolchain": "2940300014",
+      "abi": "arm64-v8a",
+      "artifactName": "native_add2",
+      "files": [
+        {
+          "src": "/home/eidan/Downloads/final5/src/native_add2.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libnative_add2.so",
+      "runtimeFiles": []
+    },
+    "native_add-Debug-arm64-v8a": {
+      "buildCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a\" native_add",
+      "buildType": "debug",
+      "toolchain": "2940300014",
+      "abi": "arm64-v8a",
+      "artifactName": "native_add",
+      "files": [
+        {
+          "src": "/home/eidan/Downloads/final5/src/native_add.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libnative_add.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2940300014": {
+      "cCompilerExecutable": "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

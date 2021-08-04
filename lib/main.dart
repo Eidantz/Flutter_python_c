@@ -89,22 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ElevatedButton(
                 child: const Text('Temperature'),
                 onPressed: () async {
-                  _show(_ffiBridge.getTemperature(5.0,2.0));
-                }),
-            ElevatedButton(
-                child: const Text('Today\'s forecast'),
-                onPressed: () {
-                  _show(_ffiBridge.getForecast());
-                }),
-            ElevatedButton(
-                child: const Text('3-day forecast (Fahrenheit)'),
-                onPressed: () {
-                  _show(_ffiBridge.getThreeDayForecast(false));
-                }),
-            ElevatedButton(
-                child: const Text('3-day forecast (Celsius)'),
-                onPressed: () {
-                  _show(_ffiBridge.getThreeDayForecast(true));
+                  _show(_ffiBridge.getadd(5,2));
                 }),
           ],
         ),

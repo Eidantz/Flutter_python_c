@@ -1,7 +1,0 @@
-Executable : /home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja
-arguments : 
--C
-/home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64
-weather
-jvmArgs : 
-

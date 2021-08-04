@@ -39,65 +39,24 @@ import 'dart:ffi';
 import 'dart:io';
 import 'package:ffi/ffi.dart';
 
-typedef TemperatureFunction = Double Function(Double,Double);
-typedef TemperatureFunctionDart = double Function(double,double);
+typedef AddFunction = Int32 Function(Int32,Int32);
+typedef AddFunctionDart = int Function(int,int);
 
-typedef ForecastFunction = Pointer<Utf8> Function();
-typedef ForecastFunctionDart = Pointer<Utf8> Function();
 
-class ThreeDayForecast extends Struct {
-  @Double()
-  external double get today;
-  external set today(double value);
 
-  @Double()
-  external double get tomorrow;
-  external set tomorrow(double value);
-
-  @Double()
-  external double get day_after;
-  external set day_after(double value);
-
-  @override
-  String toString() {
-    return 'Today : ${today.toStringAsFixed(1)}\n'
-        'Tomorrow : ${tomorrow.toStringAsFixed(1)}\n'
-        'Day After ${day_after.toStringAsFixed(1)}';
-  }
-}
-
-typedef ThreeDayForecastFunction = ThreeDayForecast Function(Uint8 useCelsius);
-typedef ThreeDayForecastFunctionDart = ThreeDayForecast Function(
-    int useCelsius);
 
 class FFIBridge {
-  TemperatureFunctionDart _getTemperature;
-  ForecastFunctionDart _getForecast;
-  ThreeDayForecastFunctionDart _getThreeDayForecast;
+  AddFunctionDart _getadd;
+
 
   FFIBridge() {
     final dl = Platform.isAndroid
-        ? DynamicLibrary.open('libweather.so')
+        ? DynamicLibrary.open('libnative_add.so')
         : DynamicLibrary.process();
-    _getTemperature =
-        dl.lookupFunction<TemperatureFunction, TemperatureFunctionDart>(
-            'get_temperature_mul');
-    _getForecast = dl
-        .lookupFunction<ForecastFunction, ForecastFunctionDart>('get_forecast');
-    _getThreeDayForecast = dl.lookupFunction<ThreeDayForecastFunction,
-        ThreeDayForecastFunctionDart>('get_three_day_forecast');
+    _getadd =
+        dl.lookupFunction<AddFunction, AddFunctionDart>(
+            'native_add');
   }
 
-  double getTemperature(double1,double2) => _getTemperature(double1,double2);
-
-  String getForecast() {
-    final ptr = _getForecast();
-    final forecast = ptr.toDartString();
-    calloc.free(ptr);
-    return forecast;
-  }
-
-  ThreeDayForecast getThreeDayForecast(bool useCelsius) {
-    return _getThreeDayForecast(useCelsius ? 1 : 0);
-  }
+  int getadd(int1,int2) => _getadd(int1,int2);
 }

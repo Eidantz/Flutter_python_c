@@ -1,103 +1,28 @@
-// Copyright (c) 2021 Razeware LLC
-//
-// Permission is hereby granted, free of charge, to any person
-// obtaining a copy of this software and associated documentation
-// files (the "Software"), to deal in the Software without
-// restriction, including without limitation the rights to use,
-//     copy, modify, merge, publish, distribute, sublicense, and/or
-// sell copies of the Software, and to permit persons to whom
-// the Software is furnished to do so, subject to the following
-// conditions:
-//
-// The above copyright notice and this permission notice shall be
-// included in all copies or substantial portions of the Software.
-//
-// Notwithstanding the foregoing, you may not use, copy, modify,
-//     merge, publish, distribute, sublicense, create a derivative work,
-// and/or sell copies of the Software in any work that is designed,
-// intended, or marketed for pedagogical or instructional purposes
-// related to programming, coding, application development, or
-// information technology. Permission for such use, copying,
-//     modification, merger, publication, distribution, sublicensing,
-//     creation of derivative works, or sale is expressly withheld.
-//
-// This project and source code may use libraries or frameworks
-// that are released under various Open-Source licenses. Use of
-// those libraries and frameworks are governed by their own
-// individual licenses.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-// NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-// HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-// WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-// DEALINGS IN THE SOFTWARE.
 
 import 'dart:ffi';
 import 'dart:io';
 import 'package:ffi/ffi.dart';
 
-typedef TemperatureFunction = Double Function(Double,Double);
-typedef TemperatureFunctionDart = double Function(double,double);
-
-typedef ForecastFunction = Pointer<Utf8> Function();
-typedef ForecastFunctionDart = Pointer<Utf8> Function();
-
-class ThreeDayForecast extends Struct {
-  @Double()
-  external double get today;
-  external set today(double value);
-
-  @Double()
-  external double get tomorrow;
-  external set tomorrow(double value);
-
-  @Double()
-  external double get day_after;
-  external set day_after(double value);
-
-  @override
-  String toString() {
-    return 'Today : ${today.toStringAsFixed(1)}\n'
-        'Tomorrow : ${tomorrow.toStringAsFixed(1)}\n'
-        'Day After ${day_after.toStringAsFixed(1)}';
-  }
-}
-
-typedef ThreeDayForecastFunction = ThreeDayForecast Function(Uint8 useCelsius);
-typedef ThreeDayForecastFunctionDart = ThreeDayForecast Function(
-    int useCelsius);
+typedef AddFunction = Pointer<Double> Function(Pointer<Double> a);
+typedef AddFunctionDart = Pointer<Double> Function(Pointer<Double> a);
 
 class FFIBridge {
-  TemperatureFunctionDart _getTemperature;
-  ForecastFunctionDart _getForecast;
-  ThreeDayForecastFunctionDart _getThreeDayForecast;
-
+  AddFunctionDart _getadd;
   FFIBridge() {
     final dl = Platform.isAndroid
-        ? DynamicLibrary.open('libweather.so')
+        ? DynamicLibrary.open('libdoit.so')
         : DynamicLibrary.process();
-    _getTemperature =
-        dl.lookupFunction<TemperatureFunction, TemperatureFunctionDart>(
-            'get_temperature_mul');
-    _getForecast = dl
-        .lookupFunction<ForecastFunction, ForecastFunctionDart>('get_forecast');
-    _getThreeDayForecast = dl.lookupFunction<ThreeDayForecastFunction,
-        ThreeDayForecastFunctionDart>('get_three_day_forecast');
+    //_getadd = dl.lookupFunction<AddFunction, AddFunctionDart>('native_add2');
+    final addPointer = dl.lookup<NativeFunction<AddFunction>>('doit');
+    _getadd = addPointer.asFunction<AddFunctionDart>();
   }
+  double getadd(int1, int2) {
+    final p = calloc<Double>(2);
+    p[0] = int1;
+    p[1] = int2;
+    final res = _getadd(p);
+    final double result = res[1];
 
-  double getTemperature(double1,double2) => _getTemperature(double1,double2);
-
-  String getForecast() {
-    final ptr = _getForecast();
-    final forecast = ptr.toDartString();
-    calloc.free(ptr);
-    return forecast;
-  }
-
-  ThreeDayForecast getThreeDayForecast(bool useCelsius) {
-    return _getThreeDayForecast(useCelsius ? 1 : 0);
+    return result;
   }
 }

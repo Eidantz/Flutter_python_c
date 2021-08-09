@@ -41,6 +41,9 @@
 #include <stdbool.h> 
 #include <stdlib.h>
 #include <Python.h>
+void main()
+{
+}
 double get_temperature_mul(double temperature1,double temperature2)
 {
 	return temperature1*temperature2;

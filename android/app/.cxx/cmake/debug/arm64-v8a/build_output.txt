@@ -1,0 +1,24 @@
+CMake Warning at /home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:449 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  .cxx/cmake/debug/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:2 (project)
+
+
+Could NOT find Python3 (missing: Python3_INCLUDE_DIRS Python3_LIBRARIES Development Development.Module Development.Embed) (found version "3.8.8")
+Python_FOUND:
+Python_VERSION:
+Python_Development_FOUND:
+Python_LIBRARIES:
+Python_LIBRARY_DIRS:
+Python_INCLUDE_DIRS:
+Python_LINK_OPTIONS:
+Python_NumPy_FOUND:
+Configuring done
+CMake Deprecation Warning:
+  The 'cmake-server(7)' is deprecated.  Please port clients to use the
+  'cmake-file-api(7)' instead.
+

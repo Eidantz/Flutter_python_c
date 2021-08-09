@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddoit_EXPORTS -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I../../../../ -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/doit.dir/home/eidan/Downloads/final5/src/doit/doit.c.o -c /home/eidan/Downloads/final5/src/doit/doit.c",
+  "file": "/home/eidan/Downloads/final5/src/doit/doit.c"
+},
+{
+  "directory": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_add2_EXPORTS -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I../../../../ -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/native_add2.dir/home/eidan/Downloads/final5/src/native_add2.c.o -c /home/eidan/Downloads/final5/src/native_add2.c",
+  "file": "/home/eidan/Downloads/final5/src/native_add2.c"
+}
+]

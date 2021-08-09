@@ -1,0 +1,8 @@
+Executable : /home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a
+doit
+native_add2
+jvmArgs : 
+

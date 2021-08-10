@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a && /home/eidan/Android/Sdk/cmake/3.18.1/bin/cmake --regenerate-during-build -S/home/eidan/Downloads/final5/android/app -B/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a
+  COMMAND = cd /home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a && /home/eidan/Android/Sdk/cmake/3.18.1/bin/cmake --regenerate-during-build -S/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app -B/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -51,7 +51,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a && /home/eidan/Android/Sdk/cmake/3.18.1/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a && /home/eidan/Android/Sdk/cmake/3.18.1/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -66,13 +66,13 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_doit: phony || CMakeFiles/doit.dir
 
-build CMakeFiles/doit.dir/home/eidan/Downloads/final5/src/doit/doit.c.o: C_COMPILER__doit_Debug /home/eidan/Downloads/final5/src/doit/doit.c || cmake_object_order_depends_target_doit
+build CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c.o: C_COMPILER__doit_Debug /home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c || cmake_object_order_depends_target_doit
   DEFINES = -Ddoit_EXPORTS
-  DEP_FILE = CMakeFiles/doit.dir/home/eidan/Downloads/final5/src/doit/doit.c.o.d
-  FLAGS = -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I../../../../
+  DEP_FILE = CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c.o.d
+  FLAGS = -v -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I/home/eidan/Downloads/final5/android/app
   OBJECT_DIR = CMakeFiles/doit.dir
-  OBJECT_FILE_DIR = CMakeFiles/doit.dir/home/eidan/Downloads/final5/src/doit
+  OBJECT_FILE_DIR = CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit
 
 
 # =============================================================================
@@ -80,69 +80,26 @@ build CMakeFiles/doit.dir/home/eidan/Downloads/final5/src/doit/doit.c.o: C_COMPI
 
 
 #############################################
-# Link the shared library /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
+# Link the shared library /home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
 
-build /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so: C_SHARED_LIBRARY_LINKER__doit_Debug CMakeFiles/doit.dir/home/eidan/Downloads/final5/src/doit/doit.c.o
-  LANGUAGE_COMPILE_FLAGS = -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info
+build /home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so: C_SHARED_LIBRARY_LINKER__doit_Debug CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c.o
+  LANGUAGE_COMPILE_FLAGS = -v -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -latomic -lm
-  LINK_PATH = -L/home/eidan/Downloads/final5/android/app/src/main/jniLibs/arm64-v8a
   OBJECT_DIR = CMakeFiles/doit.dir
   POST_BUILD = :
   PRE_LINK = :
   SONAME = libdoit.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
+  TARGET_FILE = /home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
   TARGET_PDB = doit.so.dbg
-
-# =============================================================================
-# Object build statements for SHARED_LIBRARY target native_add2
-
-
-#############################################
-# Order-only phony target for native_add2
-
-build cmake_object_order_depends_target_native_add2: phony || CMakeFiles/native_add2.dir
-
-build CMakeFiles/native_add2.dir/home/eidan/Downloads/final5/src/native_add2.c.o: C_COMPILER__native_add2_Debug /home/eidan/Downloads/final5/src/native_add2.c || cmake_object_order_depends_target_native_add2
-  DEFINES = -Dnative_add2_EXPORTS
-  DEP_FILE = CMakeFiles/native_add2.dir/home/eidan/Downloads/final5/src/native_add2.c.o.d
-  FLAGS = -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I../../../../
-  OBJECT_DIR = CMakeFiles/native_add2.dir
-  OBJECT_FILE_DIR = CMakeFiles/native_add2.dir/home/eidan/Downloads/final5/src
-
-
-# =============================================================================
-# Link build statements for SHARED_LIBRARY target native_add2
-
-
-#############################################
-# Link the shared library /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libnative_add2.so
-
-build /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libnative_add2.so: C_SHARED_LIBRARY_LINKER__native_add2_Debug CMakeFiles/native_add2.dir/home/eidan/Downloads/final5/src/native_add2.c.o
-  LANGUAGE_COMPILE_FLAGS = -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info
-  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
-  LINK_LIBRARIES = -lpython3.8  -latomic -lm
-  LINK_PATH = -L/home/eidan/Downloads/final5/android/app/src/main/jniLibs/arm64-v8a
-  OBJECT_DIR = CMakeFiles/native_add2.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  SONAME = libnative_add2.so
-  SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libnative_add2.so
-  TARGET_PDB = native_add2.so.dbg
 
 # =============================================================================
 # Target aliases.
 
-build doit: phony /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
+build doit: phony /home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
 
-build libdoit.so: phony /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
-
-build libnative_add2.so: phony /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libnative_add2.so
-
-build native_add2: phony /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libnative_add2.so
+build libdoit.so: phony /home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
 
 # =============================================================================
 # Folder targets.
@@ -150,9 +107,9 @@ build native_add2: phony /home/eidan/Downloads/final5/build/app/intermediates/cm
 # =============================================================================
 
 #############################################
-# Folder: /home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a
+# Folder: /home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a
 
-build all: phony /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libnative_add2.so
+build all: phony /home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
 
 # =============================================================================
 # Built-in targets

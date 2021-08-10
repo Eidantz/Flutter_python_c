@@ -1,7 +1,15 @@
-ninja: Entering directory `/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a'
-[1/2] Building C object CMakeFiles/doit.dir/home/eidan/Downloads/final5/src/doit/doit.c.o
-/home/eidan/Downloads/final5/src/doit/doit.c:32:10: warning: address of stack memory associated with local variable 'res' returned [-Wreturn-stack-address]
+ninja: Entering directory `/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a'
+[1/4] Building C object CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c.o
+/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c:32:10: warning: address of stack memory associated with local variable 'res' returned [-Wreturn-stack-address]
   return res;
          ^~~
 1 warning generated.
-[2/2] Linking C shared library /home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
+[2/4] Linking C shared library /home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so
+[3/4] Building C object CMakeFiles/native_add2.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/native_add2.c.o
+FAILED: CMakeFiles/native_add2.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/native_add2.c.o 
+/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_add2_EXPORTS -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I/home/eidan/Downloads/final5/android/app -I /usr/local/lib/python3.9/dist-packages/numpy/core/include/ -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native_add2.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/native_add2.c.o -MF CMakeFiles/native_add2.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/native_add2.c.o.d -o CMakeFiles/native_add2.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/native_add2.c.o -c /home/eidan/Downloads/Flutter_python_c-MATLAB/src/native_add2.c
+/home/eidan/Downloads/Flutter_python_c-MATLAB/src/native_add2.c:635:10: fatal error: 'numpy/arrayobject.h' file not found
+#include "numpy/arrayobject.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

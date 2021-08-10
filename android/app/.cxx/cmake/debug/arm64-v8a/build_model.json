@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a",
-    "cmakeServerLogFile": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/home/eidan/Downloads/final5/android/app/.cxx/cxx/debug/arm64-v8a",
+    "cmakeArtifactsBaseFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a",
+    "cmakeServerLogFile": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cxx/debug/arm64-v8a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a",
+      "buildRoot": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a",
       "cmakeToolchain": "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/cmake",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab"
+          "value": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -57,7 +57,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj/arm64-v8a"
+          "value": "/home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -74,14 +74,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a",
+  "cxxBuildFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a",
   "info": {
     "abi": "ARM64_V8A",
     "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/arm64-v8a",
+  "originalCxxBuildFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -98,12 +98,12 @@
         "ninjaExe": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja"
       },
       "cmakeToolchainFile": "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/home/eidan/Downloads/final5/android/app/.cxx",
+      "cxxFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "/home/eidan/Downloads/final5/build/app/intermediates",
-      "makeFile": "/home/eidan/Downloads/final5/android/app/CMakeLists.txt",
-      "moduleBuildFile": "/home/eidan/Downloads/final5/android/app/build.gradle",
-      "moduleRootFolder": "/home/eidan/Downloads/final5/android/app",
+      "intermediatesFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates",
+      "makeFile": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/CMakeLists.txt",
+      "moduleBuildFile": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/build.gradle",
+      "moduleRootFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -168,12 +168,12 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "22.1.7171670",
       "project": {
-        "compilerSettingsCacheFolder": "/home/eidan/Downloads/final5/android/.cxx",
-        "cxxFolder": "/home/eidan/Downloads/final5/android/.cxx",
+        "compilerSettingsCacheFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/.cxx",
+        "cxxFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/home/eidan/Downloads/final5/android",
+        "rootBuildGradleFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android",
         "sdkFolder": "/home/eidan/Android/Sdk",
         "isPrefabEnabled": false
       },
@@ -190,13 +190,16 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "/home/eidan/Downloads/final5/build/app/intermediates/cmake/debug/obj",
+    "objFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
-      "ARM64_V8A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
-    "prefabDirectory": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/prefab",
+    "prefabDirectory": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/home/eidan/Downloads/final5/android/app/.cxx/cmake/debug/prefab/arm64-v8a"
+  "prefabFolder": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/prefab/arm64-v8a"
 }

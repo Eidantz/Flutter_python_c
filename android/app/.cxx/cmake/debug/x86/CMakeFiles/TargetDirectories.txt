@@ -1,0 +1,3 @@
+/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86/CMakeFiles/doit.dir

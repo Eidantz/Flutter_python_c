@@ -19,8 +19,7 @@ double *doit(double *p)
 {
   double a[2];
   double res[2];
-  double *buff;
-
+  double 
   a[0] = p[0];
   a[1] = p[1];
   /* 'doit:2' resa =a+a; */

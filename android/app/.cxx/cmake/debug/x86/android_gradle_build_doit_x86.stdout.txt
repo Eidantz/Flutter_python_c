@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86'
+ninja: no work to do.

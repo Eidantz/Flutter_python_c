@@ -1,0 +1,44 @@
+{
+  "stringTable": {
+    "0": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddoit_EXPORTS -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I/home/eidan/Downloads/final5/android/app -v -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/CMakeLists.txt",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/platforms.cmake",
+    "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja  -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "doit-Debug-x86": {
+      "buildCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86\" doit",
+      "buildType": "debug",
+      "toolchain": "2940300014",
+      "abi": "x86",
+      "artifactName": "doit",
+      "files": [
+        {
+          "src": "/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/x86/libdoit.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2940300014": {
+      "cCompilerExecutable": "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -15,8 +15,8 @@ CMake Warning at /home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.to
   values may be wrong or missing.  Update to CMake 3.19 or newer to use
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
-  /home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-  /home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+  /home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 Detecting C compiler ABI info - done
@@ -30,23 +30,23 @@ CMake Warning at /home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.to
   values may be wrong or missing.  Update to CMake 3.19 or newer to use
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
-  /home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-  /home/eidan/flutter/final4/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+  /home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 Detecting CXX compiler ABI info - done
 Check for working CXX compiler: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ - skipped
 Detecting CXX compile features
 Detecting CXX compile features - done
-Could NOT find Python (missing: Python_INCLUDE_DIRS Python_LIBRARIES Development Development.Module Development.Embed) (found version "2.7.18")
-Python_FOUND:FALSE
-Python_VERSION:2.7.18
-Python_Development_FOUND:FALSE
-Python_LIBRARIES:Python_LIBRARY-NOTFOUND
+Could NOT find Python3 (missing: Python3_INCLUDE_DIRS Python3_LIBRARIES Development Development.Module Development.Embed) (found version "3.6.9")
+Python_FOUND:
+Python_VERSION:
+Python_Development_FOUND:
+Python_LIBRARIES:
 Python_LIBRARY_DIRS:
 Python_INCLUDE_DIRS:
 Python_LINK_OPTIONS:
-Python_NumPy_FOUND:FALSE
+Python_NumPy_FOUND:
 Configuring done
 CMake Deprecation Warning:
   The 'cmake-server(7)' is deprecated.  Please port clients to use the

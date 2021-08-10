@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86",
+  "command": "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddoit_EXPORTS -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I/home/eidan/Downloads/final5/android/app -v -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c.o -c /home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c",
+  "file": "/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c"
+}
+]

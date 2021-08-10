@@ -19,9 +19,6 @@ include_directories(/home/eidan/Downloads/final5/android/app)
 # include_directories(/home/eidan/Downloads/python-for-android-master/python-build/crypt)
 set(CMAKE_C_FLAGS "-v")
 
-set(CMAKE_C_FLAGS "-I /usr/local/lib/python3.9/dist-packages/numpy/core/include/")
-
-link_directories(/home/eidan/Downloads/final5/android/app/src/main/jniLibs/arm64-v8a)
 
 
 #add_library( 
@@ -39,15 +36,11 @@ link_directories(/home/eidan/Downloads/final5/android/app/src/main/jniLibs/arm64
 #  SHARED
 #  ../../src/native_add2.c
 #)
-add_library( 
-  native_add2
-  SHARED
-  ../../src/native_add2.c
-)
+
 add_library( 
   doit
   SHARED
   ../../src/doit/doit.c
 )
-target_link_libraries(native_add2 -lpython3.8)
+
 #target_link_libraries(native_add -lpython3.8)

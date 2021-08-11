@@ -1,5 +1,3 @@
 # ninja log v5
-0	26	1628530793	CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c.o	52dc8fd5a6efdd25
-26	36	1628530793	/home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so	ab8fbb6ddefea142
-0	11	1628530866	CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c.o	dad906d2468d655d
-11	20	1628530866	/home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so	1fb275892f35c0e0
+0	13	1628615862	CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o	f3764ceaabd6f56a
+13	23	1628615862	/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so	ae918e8c3bade265

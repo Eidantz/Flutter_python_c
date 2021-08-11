@@ -18,7 +18,7 @@ extern "C" {
 #endif
 
 /* Function Declarations */
-extern double *doit(double *p);
+extern struct Place doit(double **p);
 
 extern void doit_initialize(void);
 

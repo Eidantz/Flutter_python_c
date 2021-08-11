@@ -1,34 +1,34 @@
 {
   "stringTable": {
-    "0": "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a",
-    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddoit_EXPORTS -I/home/eidan/Downloads/android.python.3.8.3/python-3.8.3/arm64-v8a/include/python3.8 -I/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt -I/home/eidan/Downloads/final5/android/app -v -O0 -fno-limit-debug-info -fPIC"
+    "0": "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddoit_EXPORTS -I/home/eidan/Downloads/final5/android/app -v -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
-    "/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/CMakeLists.txt",
+    "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/CMakeLists.txt",
     "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
     "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/platforms.cmake",
     "/home/eidan/Android/Sdk/ndk/22.1.7171670/build/cmake/compiler_id.cmake"
   ],
   "cleanCommands": [
-    "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a\" clean"
+    "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/arm64-v8a\" clean"
   ],
-  "buildTargetsCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja  -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja  -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "doit-Debug-arm64-v8a": {
-      "buildCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/arm64-v8a\" doit",
+      "buildCommand": "/home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja -C \"/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/arm64-v8a\" doit",
       "buildType": "debug",
       "toolchain": "2940300014",
       "abi": "arm64-v8a",
       "artifactName": "doit",
       "files": [
         {
-          "src": "/home/eidan/Downloads/Flutter_python_c-MATLAB/src/doit/doit.c",
+          "src": "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/src/doit/doit.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "/home/eidan/Downloads/Flutter_python_c-MATLAB/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so",
+      "output": "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/build/app/intermediates/cmake/debug/obj/arm64-v8a/libdoit.so",
       "runtimeFiles": []
     }
   },

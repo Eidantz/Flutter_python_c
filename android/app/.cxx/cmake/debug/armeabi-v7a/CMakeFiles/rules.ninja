@@ -42,7 +42,7 @@ rule C_SHARED_LIBRARY_LINKER__doit_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/eidan/Android/Sdk/cmake/3.18.1/bin/cmake --regenerate-during-build -S/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app -B/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/armeabi-v7a
+  command = /home/eidan/Android/Sdk/cmake/3.18.1/bin/cmake --regenerate-during-build -S"/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app" -B"/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/armeabi-v7a"
   description = Re-running CMake...
   generator = 1
 

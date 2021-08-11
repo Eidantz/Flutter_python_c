@@ -1,2 +1,46 @@
-ninja: Entering directory `/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/armeabi-v7a'
-ninja: no work to do.
+ninja: Entering directory `/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/armeabi-v7a'
+[0/1] Re-running CMake...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/armeabi-v7a
+[1/2] Building C object 'CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o'
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ (in-process)
+ "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple armv7-none-linux-android16 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name doit.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5 -dependency-file CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o.d -MT CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o -sys-header-deps -D doit_EXPORTS -I /home/eidan/Downloads/final5/android/app -isysroot /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -cxx-isystem /snap/flutter/current/usr/include/x86_64-linux-gnu/c++/8 -cxx-isystem /snap/flutter/current/usr/include/c++/8 -cxx-isystem /snap/flutter/current/usr/include -cxx-isystem /snap/flutter/current/usr/include/x86_64-linux-gnu -cxx-isystem /snap/flutter/current/usr/include/c++/8 -internal-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -O0 -fdebug-compilation-dir "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/armeabi-v7a" -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o -x c "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/src/doit/doit.c"
+clang -cc1 version 11.0.5 based upon LLVM 11.0.5git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/eidan/Downloads/final5/android/app"
+ignoring nonexistent directory "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include
+ /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/include
+ /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi
+ /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/src/doit/doit.c:58:16: warning: incompatible pointer types assigning to 'double **' from 'double (*)[numCols]' [-Wincompatible-pointer-types]
+  place.matrix = a;
+               ^ ~
+1 warning generated.
+[2/2] Linking C shared library "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libdoit.so"
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -shared -o "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libdoit.so" /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/crtbegin_so.o -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/lib/linux/arm -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/16 -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --exclude-libs libunwind.a --no-undefined -soname libdoit.so CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o -latomic -lm -lgcc -ldl -lc -lgcc -ldl /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/crtend_so.o

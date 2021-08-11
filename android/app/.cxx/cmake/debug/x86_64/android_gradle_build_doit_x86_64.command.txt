@@ -1,7 +1,7 @@
 Executable : /home/eidan/Android/Sdk/cmake/3.18.1/bin/ninja
 arguments : 
 -C
-/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86_64
+/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/x86_64
 doit
 jvmArgs : 
 

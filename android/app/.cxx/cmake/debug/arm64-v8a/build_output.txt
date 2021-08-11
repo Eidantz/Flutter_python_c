@@ -8,15 +8,6 @@ Call Stack (most recent call first):
   CMakeLists.txt:2 (project)
 
 
-Could NOT find Python3 (missing: Python3_INCLUDE_DIRS Python3_LIBRARIES Development Development.Module Development.Embed) (found version "3.6.9")
-Python_FOUND:
-Python_VERSION:
-Python_Development_FOUND:
-Python_LIBRARIES:
-Python_LIBRARY_DIRS:
-Python_INCLUDE_DIRS:
-Python_LINK_OPTIONS:
-Python_NumPy_FOUND:
 Configuring done
 CMake Deprecation Warning:
   The 'cmake-server(7)' is deprecated.  Please port clients to use the

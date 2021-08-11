@@ -1,2 +1,38 @@
-ninja: Entering directory `/home/eidan/Downloads/Flutter_python_c-MATLAB/android/app/.cxx/cmake/debug/x86'
-ninja: no work to do.
+ninja: Entering directory `/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/x86'
+[1/2] Building C object 'CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o'
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+Target: i686-none-linux-android16
+Thread model: posix
+InstalledDir: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Found candidate GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ (in-process)
+ "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple i686-none-linux-android16 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name doit.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -target-cpu i686 -target-feature +ssse3 -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5 -dependency-file CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o.d -MT CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o -sys-header-deps -D doit_EXPORTS -I /home/eidan/Downloads/final5/android/app -isysroot /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -cxx-isystem /snap/flutter/current/usr/include/x86_64-linux-gnu/c++/8 -cxx-isystem /snap/flutter/current/usr/include/c++/8 -cxx-isystem /snap/flutter/current/usr/include -cxx-isystem /snap/flutter/current/usr/include/x86_64-linux-gnu -cxx-isystem /snap/flutter/current/usr/include/c++/8 -internal-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/include -internal-externc-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android -internal-externc-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -O0 -fdebug-compilation-dir "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/android/app/.cxx/cmake/debug/x86" -ferror-limit 19 -fgnuc-version=4.2.1 -o CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o -x c "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/src/doit/doit.c"
+clang -cc1 version 11.0.5 based upon LLVM 11.0.5git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/eidan/Downloads/final5/android/app"
+ignoring nonexistent directory "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include
+ /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/include
+ /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android
+ /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/src/doit/doit.c:58:16: warning: incompatible pointer types assigning to 'double **' from 'double (*)[numCols]' [-Wincompatible-pointer-types]
+  place.matrix = a;
+               ^ ~
+1 warning generated.
+[2/2] Linking C shared library "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/build/app/intermediates/cmake/debug/obj/x86/libdoit.so"
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+Target: i686-none-linux-android16
+Thread model: posix
+InstalledDir: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Found candidate GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -shared -o "/home/eidan/Downloads/Flutter_python_c-MATLAB (another copy)/build/app/intermediates/cmake/debug/obj/x86/libdoit.so" /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_so.o -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/11.0.5/lib/linux/i386 -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined -soname libdoit.so CMakeFiles/doit.dir/home/eidan/Downloads/Flutter_python_c-MATLAB_(another_copy)/src/doit/doit.c.o -latomic -lm -lgcc -ldl -lc -lgcc -ldl /home/eidan/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_so.o
